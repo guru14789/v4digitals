@@ -198,7 +198,7 @@ const Home: React.FC = () => {
                         margin: 0,
                         whiteSpace: isMobile ? 'normal' : 'nowrap'
                     }}>
-                        V4 Photography Studio
+                        V4 Digitals
                     </h1>
                     <img
                         src="/images/signature.png"
@@ -298,7 +298,7 @@ const Home: React.FC = () => {
                 </section>
 
                 <footer style={{ padding: '120px 40px', textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontFamily: '"DM Sans", sans-serif' }}>
-                    <p style={{ letterSpacing: '2px', textTransform: 'uppercase', fontSize: '12px' }}>© 2026 V4 Photography Studio</p>
+                    <p style={{ letterSpacing: '2px', textTransform: 'uppercase', fontSize: '12px' }}>© 2026 V4 Digitals</p>
                 </footer>
             </main>
 
@@ -306,7 +306,7 @@ const Home: React.FC = () => {
             <div className="framer-ky8sna-container" style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 100 }}>
                 <div className="framer-ky8sna" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', padding: '12px 20px', borderRadius: '58px', border: '1px solid rgba(255,255,255,0.1)', backdropFilter: 'blur(10px)' }}>
                     <p className="framer-text" style={{ fontFamily: 'Inter, sans-serif', fontSize: '14px', color: 'white', margin: 0 }}>
-                        V4 Photography Studio
+                        V4 Digitals
                     </p>
                 </div>
             </div>
