@@ -58,13 +58,13 @@ const About: React.FC = () => {
                         }}
                     >
                         <p style={{ marginBottom: '20px' }}>
-                            V4 Digitals is a premier visual production studio specializing in high-end commercial photography and cinematic filmmaking. Based in our state-of-the-art facility, we partner with brands and individuals to transform visions into compelling visual narratives that command attention.
+                            V4 Digitals is a premier visual production studio specializing in high-end commercial photography, cinematic wedding storytelling, and bespoke individual portraiture. Based in our state-of-the-art facility, we partner with brands and individuals to transform life's most significant moments and corporate visions into compelling visual narratives.
                         </p>
                         <p style={{ marginBottom: '20px' }}>
-                            With over a decade of industry excellence, our studio has delivered world-class content for global campaigns, architecture, and luxury fashion. We blend technical precision with creative artistry, ensuring every frame is meticulously crafted to meet the highest standards of professional visual communication.
+                            With over a decade of industry excellence, our studio has delivered world-class content ranging from global commercial campaigns to intimate, high-end marriage celebrations. We blend technical precision with creative artistry, ensuring every frame—whether a large-scale production or an individual session—is meticulously crafted.
                         </p>
                         <p>
-                            From conceptual development to post-production, our team provides a comprehensive suite of digital services. We are dedicated to innovation, quality, and the relentless pursuit of visual perfection for our diverse portfolio of international clients.
+                            Our team provides a comprehensive suite of services including luxury wedding cinematography, editorial portraits, and full-scale commercial post-production. We are dedicated to innovation, quality, and the pursuit of visual perfection for our diverse portfolio of local and international clients.
                         </p>
                     </motion.div>
                 </section>
