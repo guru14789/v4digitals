@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
-import { Mail, Instagram, Twitter, MessageSquare, Send } from 'lucide-react';
+import { Mail, Instagram, Twitter, Send } from 'lucide-react';
 
 const Contact: React.FC = () => {
     return (
