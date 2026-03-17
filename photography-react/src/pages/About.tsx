@@ -58,13 +58,13 @@ const About: React.FC = () => {
                         }}
                     >
                         <p style={{ marginBottom: '20px' }}>
-                            I’m a photographer and filmmaker based in the Pacific Northwest. My work is driven by a deep appreciation for the natural world and the stories that emerge from our connection to it.
+                            V4 Digitals is a premier visual production studio specializing in high-end commercial photography and cinematic filmmaking. Based in our state-of-the-art facility, we partner with brands and individuals to transform visions into compelling visual narratives that command attention.
                         </p>
                         <p style={{ marginBottom: '20px' }}>
-                            Over the last decade, I’ve traveled across six continents, capturing the raw beauty of remote landscapes and the quiet moments of human experience. My goal is to transport the viewer to these places and evoke the same sense of awe and wonder I felt when I was there.
+                            With over a decade of industry excellence, our studio has delivered world-class content for global campaigns, architecture, and luxury fashion. We blend technical precision with creative artistry, ensuring every frame is meticulously crafted to meet the highest standards of professional visual communication.
                         </p>
                         <p>
-                            When I’m not behind the lens, you can find me hiking with my dog, exploring new coffee shops, or teaching workshops on digital storytelling.
+                            From conceptual development to post-production, our team provides a comprehensive suite of digital services. We are dedicated to innovation, quality, and the relentless pursuit of visual perfection for our diverse portfolio of international clients.
                         </p>
                     </motion.div>
                 </section>
