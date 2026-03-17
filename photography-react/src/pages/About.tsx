@@ -70,29 +70,37 @@ const About: React.FC = () => {
                 </section>
 
                 {/* Contact/Socials */}
-                <section style={{ display: 'flex', gap: '40px', marginTop: '40px' }}>
-                    {['Instagram', 'Twitter', 'YouTube', 'Email'].map((item, index) => (
+                <section style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '40px' }}>
+                    {[
+                        { name: 'Instagram', url: '#' },
+                        { name: 'Twitter', url: '#' },
+                        { name: 'Email', url: 'mailto:hello@v4digitals.com' },
+                        { name: 'Get in Touch', url: '/contact' }
+                    ].map((item, index) => (
                         <motion.a
-                            key={item}
-                            href="#"
-                            aria-label={`Visit our ${item}`}
+                            key={item.name}
+                            href={item.url}
+                            aria-label={`Visit our ${item.name}`}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6 + index * 0.1 }}
                             style={{
-                                color: 'white',
                                 textDecoration: 'none',
                                 fontFamily: 'Inter, sans-serif',
                                 fontSize: '14px',
                                 fontWeight: 500,
-                                padding: '10px 20px',
+                                padding: '12px 24px',
                                 borderRadius: '30px',
                                 border: '1px solid rgba(255,255,255,0.1)',
-                                backgroundColor: 'rgba(255,255,255,0.05)'
+                                backgroundColor: item.name === 'Get in Touch' ? 'white' : 'rgba(255,255,255,0.05)',
+                                color: item.name === 'Get in Touch' ? 'black' : 'white'
                             }}
-                            whileHover={{ backgroundColor: 'rgba(255,255,255,0.1)', scale: 1.05 }}
+                            whileHover={{
+                                backgroundColor: item.name === 'Get in Touch' ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.1)',
+                                scale: 1.05
+                            }}
                         >
-                            {item}
+                            {item.name}
                         </motion.a>
                     ))}
                 </section>
