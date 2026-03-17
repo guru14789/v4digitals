@@ -15,17 +15,19 @@ const About: React.FC = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                         style={{
-                            width: '300px',
-                            height: '300px',
-                            borderRadius: '50%',
+                            width: '100%',
+                            maxWidth: '600px',
+                            height: '400px',
+                            borderRadius: '24px',
                             overflow: 'hidden',
                             margin: '0 auto 40px',
-                            border: '2px solid rgba(255,255,255,0.1)'
+                            border: '1px solid rgba(255,255,255,0.1)',
+                            boxShadow: '0 20px 40px rgba(0,0,0,0.4)'
                         }}
                     >
                         <img
-                            src="/framerusercontent.com/images/25HQu46xrzghEDOA6VSbNI8aM3141.jpg"
-                            alt="V4 Digitals"
+                            src="/images/about_studio.png"
+                            alt="V4 Digitals Studio"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
                     </motion.div>
